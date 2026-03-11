@@ -1,16 +1,18 @@
 {
-    "name": "qwerty-xcv/Baileys",
-    "version": "2.1.7",
-    "description": "WhatsApp Modified By 7eppeli",
+    "name": "@ostyado/baileys",
+    "version": "1.1.9",
+    "description": "WhatsApp Baileys modification By FluxCorp",
     "keywords": [
-        "whatsapp-baileys"
+        "whatsapp-baileys",
+"Ostyado",
+"Fluxion"
     ],
-    "homepage": "https://github.com/qwerty-xcv/Baileys",
+    "homepage": "https://github.com/OSTYADO/baileys",
     "repository": {
-        "url": "https://github.com/qwerty-xcv/Baileys"
+        "url": "https://github.com/OSTYADO/baileys"
     },
     "license": "MIT",
-    "author": "7eppeli.pdf",
+    "author": "OSTYADO",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [
