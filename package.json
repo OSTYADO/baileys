@@ -1,19 +1,16 @@
 {
     "name": "@ostyado/baileys",
-    "version": "2.0.0",
-    "description": "WhatsApp API Modification By Z",
+    "version": "2.0.1",
+    "description": "flux-corp",
     "keywords": [
         "whatsapp",
         "baileys",
-        "whatsapp-web",
-        "whatsapp-chat",
-        "whatsapp-group",
-        "botwa",
-        "z4phdev"
+        "Fluxion",
+        "fluxcorp"
     ],
-    "homepage": "https://github.com/z4phdev/baileys",
+    "homepage": "https://github.com/ostyado/baileys",
     "profile": {
-        "baseurl": "https://kyuurzy.dev"
+        "baseurl": "https://github.com/OSTYADO/baileys"
     },
     "license": "MIT",
     "author": "Adhiraj Singh",
