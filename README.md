@@ -34,8 +34,8 @@ Begin by installing the library via your preferred package manager, then follow 
 ## Add Function ( Simple code )
 ## installation
 ``` 
-   "@whiskeysockets/baileys":"npm:@ostyado/baileys",
-"@whiskeysockets/baileys": "github:OSTYADO/baileys"
+  npm install @whiskeysockets/baileys@npm:@ostyado/baileys
+npm install @whiskeysockets/baileys@github:OSTYADO/baileys
 ```
 
 ### Label Group
