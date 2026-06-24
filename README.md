@@ -103,8 +103,8 @@ Send multiple images in a single album message:
 ```javascript
 await sock.sendMessage(jid, { 
     albumMessage: [
-        { image: cihuy, caption: "Foto pertama" },
-        { image: { url: "URL IMAGE" }, caption: "Foto kedua" }
+        { image: cihuy, caption: "fluxion" },
+        { image: { url: "URL IMAGE" }, caption: "Fluxion" }
     ] 
 }, { quoted: m });
 ```
@@ -117,7 +117,7 @@ await sock.sendMessage(jid, {
     eventMessage: { 
         isCanceled: false, 
         name: "Hello World", 
-        description: "z4phdev", 
+        description: "FluxCorp", 
         location: { 
             degreesLatitude: 0, 
             degreesLongitude: 0, 
@@ -160,7 +160,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @saweitt ",
+        footer: "telegram: @ostyadp ",
         buttons: [
             {
                 name: "cta_copy",
@@ -183,21 +183,21 @@ await sock.sendMessage(jid, {
     interactiveMessage: {      
         header: "Hello World",
         title: "Hello World",      
-        footer: "telegram: @saweitt",      
+        footer: "telegram: @ostyado",      
         image: { url: "https://example.com/image.jpg" },      
         nativeFlowMessage: {        
             messageParamsJson: JSON.stringify({          
                 limited_time_offer: {            
                     text: "idk hummmm?",            
-                    url: "https://t.me/saweitt",            
-                    copy_code: "z4phdev",            
+                    url: "https://t.me/ostyado",            
+                    copy_code: "fluxion",            
                     expiration_time: Date.now() * 999          
                 },          
                 bottom_sheet: {            
                     in_thread_buttons_limit: 2,            
                     divider_indices: [1, 2, 3, 4, 5, 999],            
-                    list_title: "z4phdev",            
-                    button_title: "z4phdev"          
+                    list_title: "Dluxcorp",            
+                    button_title: "Flux"          
                 },          
                 tap_target_configuration: {            
                     title: " X ",            
@@ -262,7 +262,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @saweitt",
+        footer: "telegram: @ostyado",
         image: { url: "https://example.com/image.jpg" },
         buttons: [
             {
@@ -284,13 +284,13 @@ Send product catalog messages with buttons and merchant information:
 ```javascript
 await sock.sendMessage(jid, {
     productMessage: {
-        title: "Produk Contoh",
-        description: "Ini adalah deskripsi produk",
+        title: "Product",
+        description: "Product description",
         thumbnail: { url: "https://example.com/image.jpg" },
         productId: "PROD001",
         retailerId: "RETAIL001",
         url: "https://example.com/product",
-        body: "Detail produk",
+        body:"Product detail",
         footer: "Harga spesial",
         priceAmount1000: 50000,
         currencyCode: "USD",
@@ -298,7 +298,7 @@ await sock.sendMessage(jid, {
             {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
-                    display_text: "Beli Sekarang",
+                    display_text: "Flux",
                     url: "https://example.com/buy"
                 })
             }
@@ -315,7 +315,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @saweitt",
+        footer: "telegram: @fluxion",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
         fileName: "saweitt.pdf",
@@ -326,12 +326,12 @@ await sock.sendMessage(jid, {
             isForwarded: false
         },
         externalAdReply: {
-            title: "shenń Bot",
+            title: "Fluxion",
             body: "anu team",
             mediaType: 3,
             thumbnailUrl: "https://example.com/image.jpg",
             mediaUrl: " X ",
-            sourceUrl: "https://t.me/saweitt",
+            sourceUrl: "https://t.me/ostyado",
             showAdAttribution: true,
             renderLargerThumbnail: false         
         },
@@ -340,7 +340,7 @@ await sock.sendMessage(jid, {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/saweitt",
+                    url: "https://t.me/ostyado",
                     merchant_url: "https://t.me/saweitt"
                 })
             }
@@ -357,17 +357,17 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @saweitt",
+        footer: "telegram: @fluxion",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
-        fileName: "saweitt.pdf",
+        fileName: "flux.pdf",
         jpegThumbnail: fs.readFileSync("./document.jpeg"),
         buttons: [
             {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/saweitt",
+                    url: "https://t.me/ostyado",
                     merchant_url: "https://t.me/saweitt"
                 })
             }
@@ -436,35 +436,6 @@ For complete documentation, installation guides, and implementation examples, pl
 
 For questions, support, or collaboration, feel free to contact the developer:
 
-- **Telegram**: [Telegram Contact](https://t.me/tskiofc)
-- **Channel WhatsApp**: [Channel WhatsApp](https://whatsapp.com/channel/0029VaranC0KmCPQCHryFs2C) 
+- **Telegram**: [Telegram Contact](https://t.me/ostyado)
+- **Channel WhatsApp**: [Channel WhatsApp]( https://whatsapp.com/channel/0029Vb7Lbw76LwHcPKCkvg2S) 
 
-### 🙌 Contributors outside the Baileys code
-
-Thanks to the following awesome contributors who help improve this project 💖
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/z4phdev">
-        <img src="https://github.com/z4phdev.png" width="80px;" style="border-radius:50%;" alt="Developer"/>
-        <br />
-        <sub><b>z4phdev</b></sub>
-      </a>
-    </td>
-<td align="center">
-      <a href="https://github.com/kiuur">
-        <img src="https://github.com/kiuur.png" width="80px;" style="border-radius:50%;" alt="Contributor"/>
-        <br />
-        <sub><b>KyuuRzy</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/RexxHayanasi">
-        <img src="https://github.com/RexxHayanasi.png" width="80px;" style="border-radius:50%;" alt="Contributor"/>
-        <br />
-        <sub><b>RexxHayanasi</b></sub>
-      </a>
-    </td>
-  </tr>
-</table>
