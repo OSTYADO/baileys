@@ -96,7 +96,58 @@ await sock.sendMessage(jid, {
      }
 });
 ```
+#### View Once Message
 
+- You can send all messages above as `viewOnce`, you only need to pass `viewOnce: true` in content object
+
+```ts
+await sock.sendMessage(
+    id,
+    {
+        image: {
+            url: './Media/ma_img.png'
+        },
+        viewOnce: true, //works with video, audio too
+        caption: 'hello word'
+    }
+)
+```
+### richMenu
+
+```js
+await sock.richMenu(jid, {
+  header: {
+    title: 'Main Menu',
+    image: { url: 'https://example.com/banner.png', inline: false }
+  },
+  body: {
+    title: 'Pick one',
+    buttons: ['Profile', 'Settings', 'Help'],
+    toast: 'opening...'
+  },
+  footer: {
+    text: 'Join us',
+    url: 't.me/example'
+  }
+})
+
+// carousel of cards instead of buttons
+await sock.richMenu(jid, {
+  body: {
+    carousel: true,
+    cards: [
+      { title: 'Card 1', buttons: ['A', 'B'], toast: '...' },
+      { title: 'Card 2', buttons: ['C', 'D'], toast: '...' }
+    ]
+  }
+})
+```
+
+### sendHtml
+
+```js
+await sock.sendHtml(jid, `<h1>Hello</h1><p>rendered from HTML</p>`)
+```
 ### Album Message (Multiple Images)
 Send multiple images in a single album message:
 
