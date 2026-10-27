@@ -1,7 +1,7 @@
 {
   "name": "ostyado-baileys",
   "type": "module",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "fixed version of the original @ostyado/baileys",
   "keywords": [
      "ostyado",
