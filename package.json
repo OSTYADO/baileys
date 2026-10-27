@@ -1,5 +1,5 @@
 {
-  "name": "@ostyado_/baileys",
+  "name": "ostyado-baileys",
   "type": "module",
   "version": "3.0.0",
   "description": "fixed version of the original @ostyado/baileys",
