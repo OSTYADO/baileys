@@ -38,7 +38,7 @@ Begin by installing the library via your preferred package manager, then follow 
 "@whiskeysockets/baileys": "github:OSTYADO/baileys"
 }
 {  
-"@whiskeysockets/baileys":"npm:@ostyado/baileys",
+"@whiskeysockets/baileys":"npm:ostyado-baileys",
 
 }
 ```
