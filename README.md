@@ -44,7 +44,7 @@ Begin by installing the library via your preferred package manager, then follow 
 ```
 
 ### Label Group
-Tag/Label Member Grop
+Tag/Label MemberTag in Group
 
 ```javascript
 await sock.setLabelGroup(jid, string)
