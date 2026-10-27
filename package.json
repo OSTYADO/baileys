@@ -1,20 +1,22 @@
 {
-  "name": "@vansnowi/baileys",
+  "name": "@ostyado_/baileys",
   "type": "module",
-  "version": "1.10.0",
-  "description": "Self-modified fork of Baileys (based on @whiskeysockets/baileys 7.0.0-rc13) — ships prebuilt, installable as a normal semver dependency.",
+  "version": "3.0.0",
+  "description": "fixed version of the original @ostyado/baileys",
   "keywords": [
+     "ostyado",
+     "rontech",
     "whatsapp",
-    "automation",
+    "fluxion",
     "baileys"
   ],
-  "homepage": "https://github.com/vanSnowi/baileys",
+  "homepage": "https://github.com/OSTYADO/baileys",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vanSnowi/baileys.git"
+    "url": "git+https://github.com/OSTYADO/baileys.git"
   },
   "bugs": {
-    "url": "https://github.com/vanSnowi/baileys/issues"
+    "url": "https://github.com/OSTYADO/baileys/issues"
   },
   "license": "MIT",
   "author": "Rajeh Taher",
