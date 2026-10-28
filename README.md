@@ -47,7 +47,7 @@ Begin by installing the library via your preferred package manager, then follow 
 Tag/Label MemberTag in Group
 
 ```javascript
-await sock.setLabelGroup(jid, string)
+await sock.setMemberTag(jid, string)
 ```
 ---
 ### Check ID Channel 
@@ -79,12 +79,7 @@ sock.checkWhatsApp(jid)
 
 ## SendMessage Documentation
 
-### Status Mention Group & Private Message
-Send Status Mention Group/Private Chat
 
-```javascript
-await sock.sendStatusMention(content, jid);
-```
 
 ### Status Group Message V2
 Send Group Status With Version 2 
