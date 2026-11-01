@@ -47,7 +47,7 @@ Begin by installing the library via your preferred package manager, then follow 
 Tag/Label MemberTag in Group
 
 ```javascript
-await sock.setMemberTag(jid, string)
+await sock.updateMemberLabel(jid, string)
 ```
 ---
 ### Check ID Channel 
@@ -67,6 +67,11 @@ Result JSON
   "creation_time": 1728547155,
   "description": "Description Channel"
 }
+```
+---
+### View Instagram profile
+``` js
+sock.sendInstaview(jid,username)
 ```
 ---
 ### Check banned number
